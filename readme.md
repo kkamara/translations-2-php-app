@@ -1,10 +1,10 @@
-<img src="https://github.com/kkamara/useful/blob/main/php-reactjs-boilerplate.png?raw=true" alt="php-reactjs-boilerplate.png" width=""/>
+<img src="https://github.com/kkamara/useful/blob/main/translations-php-reactjs-app.png?raw=true" alt="translations-php-reactjs-app.png" width=""/>
 
 <img src="https://github.com/kkamara/useful/blob/main/php-reactjs-boilerplate2.png?raw=true" alt="php-reactjs-boilerplate2.png" width=""/>
 
-# PHP Reactjs Boilerplate [![API](https://github.com/kkamara/php-reactjs-boilerplate/actions/workflows/build.yml/badge.svg)](https://github.com/kkamara/php-reactjs-boilerplate/actions/workflows/build.yml)
+# Translations 2 PHP App [![API](https://github.com/kkamara/translations-2-php-app/actions/workflows/build.yml/badge.svg)](https://github.com/kkamara/translations-2-php-app/actions/workflows/build.yml)
 
-(2021) A GDPR compliant Laravel 10.x boilerplate with Redux.
+(14-Feb-2024) A GDPR compliant Laravel 10.x language translations app with static pages.
 
 * [Using Thunder Client?](#thunder-client)
 

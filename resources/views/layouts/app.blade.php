@@ -10,13 +10,12 @@
 
     <!-- Styles -->
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-    {{-- <link rel='stylesheet' href="/css/app.css"> --}}
+    @vite(['resources/css/app.css'])
 </head>
 <body>
 
-    <div id="app"></div>
+    @section('content') @show
 
-    @viteReactRefresh
-    @vite(['resources/js/index.jsx'])
+    @vite(['resources/js/index.js'])
 </body>
 </html>

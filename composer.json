@@ -1,14 +1,13 @@
 {
-    "name": "kkamara/php-reactjs-boilerplate",
-    "version": "0.3.3",
+    "name": "kkamara/translations-2-php-app",
+    "version": "0.1.0",
     "type": "project",
-    "description": "(2021) A GDPR compliant Laravel 10.x boilerplate with Redux.",
+    "description": "(14-Feb-2024) A GDPR compliant Laravel 10.x language translations app with static pages.",
     "keywords": [
         "web",
         "web-app",
         "gdpr",
         "api",
-        "reactjs",
         "tests",
         "testing"
     ],
