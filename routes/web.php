@@ -5,6 +5,8 @@ use Illuminate\Support\Facades\Log;
 use App\Mail\Test as TestMail;
 use Illuminate\Support\Facades\Mail;
 use App\Jobs\TestJob;
+use Illuminate\Support\Facades\App;
+use Illuminate\Http\Request;
 
 /*
 |--------------------------------------------------------------------------
@@ -33,4 +35,16 @@ Route::get('/email', function () {
     return $email;
 });
 
-Route::view('/{path?}', 'layouts.app')->where('path', '.*');
+// Route::view('/{path?}', 'layouts.app')->where('path', '.*');
+
+Route::get("/set-locale", function(Request $request) {
+    App::setLocale("es");
+    $request->session()->put("lang", "es");
+    $locale = App::getLocale();
+    return "Success: ".$locale;
+});
+
+Route::get("/", function(Request $request) {
+    $locale = $request->session()->get("lang");
+    return $locale;
+});
